@@ -46,3 +46,6 @@ android/gradle/
 android/gradlew
 android/gradlew.bat
 android/local.properties
+ios/RCTBaiduMap.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+ios/RCTBaiduMap.xcodeproj/project.xcworkspace/xcuserdata/yanbo.xcuserdatad/UserInterfaceState.xcuserstate
+ios/RCTBaiduMap.xcodeproj/xcuserdata/yanbo.xcuserdatad/xcschemes/xcschememanagement.plist
