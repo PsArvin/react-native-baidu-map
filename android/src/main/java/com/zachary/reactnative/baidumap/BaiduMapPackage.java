@@ -38,8 +38,7 @@ public class BaiduMapPackage implements ReactPackage {
     }
 
     @Override
-    public List<ViewManager> createViewManagers(
-            ReactApplicationContext reactContext) {
+    public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
         return Arrays.<ViewManager>asList(
                 baiduMapViewManager
         );
