@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CE5267C208DFF7C003F8EAA /* JZLocationConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE5267A208DFF7C003F8EAA /* JZLocationConverter.m */; };
 		B652CE591E6D8D1B00EE1246 /* BaiduMapModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B652CE4E1E6D8D1B00EE1246 /* BaiduMapModule.m */; };
 		B652CE5A1E6D8D1B00EE1246 /* BaseModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B652CE501E6D8D1B00EE1246 /* BaseModule.m */; };
 		B652CE5B1E6D8D1B00EE1246 /* GeolocationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B652CE521E6D8D1B00EE1246 /* GeolocationModule.m */; };
@@ -28,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4CE5267A208DFF7C003F8EAA /* JZLocationConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZLocationConverter.m; sourceTree = "<group>"; };
+		4CE5267B208DFF7C003F8EAA /* JZLocationConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZLocationConverter.h; sourceTree = "<group>"; };
 		B652CE411E6D8C2B00EE1246 /* libRCTBaiduMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTBaiduMap.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B652CE4D1E6D8D1B00EE1246 /* BaiduMapModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMapModule.h; sourceTree = "<group>"; };
 		B652CE4E1E6D8D1B00EE1246 /* BaiduMapModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiduMapModule.m; sourceTree = "<group>"; };
@@ -73,6 +76,8 @@
 		B652CE431E6D8C2B00EE1246 /* RCTBaiduMap */ = {
 			isa = PBXGroup;
 			children = (
+				4CE5267B208DFF7C003F8EAA /* JZLocationConverter.h */,
+				4CE5267A208DFF7C003F8EAA /* JZLocationConverter.m */,
 				B652CE4D1E6D8D1B00EE1246 /* BaiduMapModule.h */,
 				B652CE4E1E6D8D1B00EE1246 /* BaiduMapModule.m */,
 				B652CE4F1E6D8D1B00EE1246 /* BaseModule.h */,
@@ -149,6 +154,7 @@
 				B652CE5B1E6D8D1B00EE1246 /* GeolocationModule.m in Sources */,
 				B652CE5C1E6D8D1B00EE1246 /* PoiSearchModule.m in Sources */,
 				B652CE5E1E6D8D1B00EE1246 /* RCTBaiduMapViewManager.m in Sources */,
+				4CE5267C208DFF7C003F8EAA /* JZLocationConverter.m in Sources */,
 				B652CE591E6D8D1B00EE1246 /* BaiduMapModule.m in Sources */,
 				B652CE5A1E6D8D1B00EE1246 /* BaseModule.m in Sources */,
 				B652CE5D1E6D8D1B00EE1246 /* RCTBaiduMapView.m in Sources */,
