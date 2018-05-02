@@ -69,7 +69,7 @@ export default {
             reject(e);
             return;
           }
-          DeviceEventEmitter.once('onGetReverseGeoCodeResult', resp => {
+          DeviceEventEmitter.once('onGetCurrentLocationPosition', resp => {
             resp.latitude = parseFloat(resp.latitude);
             resp.longitude = parseFloat(resp.longitude);
             resolve(resp);
