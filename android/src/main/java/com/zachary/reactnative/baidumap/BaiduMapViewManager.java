@@ -1,17 +1,13 @@
 package com.zachary.reactnative.baidumap;
 
-import android.content.Context;
 import android.graphics.Point;
-import android.support.annotation.Nullable;
 import android.view.View;
 import android.widget.TextView;
 
-import com.baidu.mapapi.SDKInitializer;
+import androidx.annotation.Nullable;
+
 import com.baidu.mapapi.map.BaiduMap;
-import com.baidu.mapapi.map.BitmapDescriptorFactory;
 import com.baidu.mapapi.map.MyLocationData;
-import com.baidu.mapapi.map.MyLocationConfiguration;
-import com.baidu.mapapi.map.MyLocationConfiguration.LocationMode;
 import com.baidu.mapapi.map.InfoWindow;
 import com.baidu.mapapi.map.MapPoi;
 import com.baidu.mapapi.map.MapStatus;
@@ -50,10 +46,6 @@ public class BaiduMapViewManager extends ViewGroupManager<MapView> {
 
   public String getName() {
     return REACT_CLASS;
-  }
-
-  public void initSDK(Context context) {
-    SDKInitializer.initialize(context);
   }
 
   public MapView createViewInstance(ThemedReactContext context) {
